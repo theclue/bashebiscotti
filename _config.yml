@@ -12,7 +12,7 @@ url: "https://theclue.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /qualcosadinuovo
+baseurl: /bashebiscotti
 
 # Google tracking id
 
@@ -30,7 +30,7 @@ force-https: True
 
 lang: "it"
 author: "Gabriele Baldassarre"
-title: "{ Qualcosa di nuovo }"
+title: "{ Bash e biscotti }"
 description: "Blog personale di Gabriele Baldassarre e i suoi esperimenti quotidiani con le più diverse tecnologie."
 keywords: "gabriele baldassarre, tecnologia, informatica, tutorial, raspberry, linux, apple"
 favicon: "/img/favicon.ico"
