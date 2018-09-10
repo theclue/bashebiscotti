@@ -179,6 +179,7 @@ pages_list:
   A cosa serve questo spazio: 'about'
   Social Network Analysis: 'sna'
   Blog: 'latest-post'
+  Contattami: 'contact'
 
 # Exclusion list from the generated _site
 
