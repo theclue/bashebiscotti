@@ -16,7 +16,7 @@ baseurl: /qualcosadinuovo
 
 # Google tracking id
 
-google-tracking-id: ""
+google-tracking-id: "UA-1228370-19"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -60,7 +60,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Non c'è nessun problema che un cluster di sei Raspberry Pi non possa risolvere. Con calma."
   - text: "Se hai i soldi, usa OSX. Se non li hai, fatti un hackintosh"
   - text: "Ogni notte, R e biscotti!"
-  - text: "Quando tutto il resto fallisci, impila altri livelli alla rete"
+  - text: "Quando tutto il resto fallisce, impila altri livelli alla rete"
 
 #me-img: "/img/jetpacktocat.png"
 
