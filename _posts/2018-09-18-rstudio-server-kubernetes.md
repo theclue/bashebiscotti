@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Initial setup
+title: RStudio Server su Google Kubernetes Engine
 category: DEVOps
 tags: [ 'kubernetes', 'docker', 'google cloud platform', 'data analysis', 'devops' ]
 ---

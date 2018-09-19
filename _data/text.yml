@@ -1,0 +1,30 @@
+
+
+  # Italian (default)
+  # -----------------
+  it: &DEFAULT_IT
+    skip_links: "Vai ai collegamenti"
+    skip_primary_nav: "Vai sulla barra di navigazione"
+    skip_content: "Vai al contenuto"
+    skip_footer: "Vai al footer"
+    menu_label: "Menu"
+    by: "di"
+    min_read: "minuti di lettura"
+    read_more: "Continua la lettura&hellip;"
+    categories: "Categorie"
+    tags: "Tag"
+    pages_categorized: "Pagina archiviata sotto"
+    pages_tagged: "Pagina annotata come"
+    table_of_contents: "Indice"
+    results_found: "Risultati trovati"
+    share: "Condividi"
+    tweet: "Tweet"
+    next: "Prossimo"
+    previous: "Precedente"
+    newer: "Articoli più recenti"
+    older: "Articoli più vecchi"
+    back_to_top: "Torna su"
+    search_placeholder_text: "Inserisci i termini di ricerca..."
+    powered_by: "Reso possibile da"
+  it-IT:
+    <<: *DEFAULT_IT

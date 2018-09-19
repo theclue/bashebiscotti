@@ -1,0 +1,20 @@
+{
+    "name": "{ Bash e Biscotti }",
+    "short_name": "{ Bash e Biscotti }",
+    "icons": [
+        {
+            "src": "/assets/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/favicons/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "https://theclue.github.io/bashebiscotti/",
+    "display": "standalone"
+}

@@ -1,0 +1,12 @@
+# Sample site navigation bar links
+
+- title: Home
+  url: /
+- title: Articoli
+  url: /articoli/
+- title: Categorie
+  url: /categorie/
+- title: Cerca
+  url: /cerca/
+- title: Social Network Analysis
+  url: https://gabrielebaldassarre.com

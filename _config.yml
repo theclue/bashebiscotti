@@ -1,199 +1,119 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+remote_theme: "mmistakes/so-simple-theme"
 
-# NB! Set your site's url, otherwise stuff will break :)
-
-url: "https://theclue.github.io"
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-#
-# NB! Without this *nothing* will work, because it's used in every path :)
-
-baseurl: /bashebiscotti
-
-# Google tracking id
-
-google-tracking-id: "UA-1228370-19"
-
-# Forces https everywhere in your website, except when you serve it locally
-# If you are not hosted on Github Pages, and your host doesn't support https
-# then you should disable it
-
-force-https: True
-
-#############
-# HTML Head #
-#############
-
-lang: "it"
-author: "Gabriele Baldassarre"
+locale: it-IT
+lang: it
 title: "{ Bash e biscotti }"
-description: "Blog personale di Gabriele Baldassarre e i suoi esperimenti quotidiani con le più diverse tecnologie."
-keywords: "gabriele baldassarre, tecnologia, informatica, tutorial, raspberry, linux, apple"
-favicon: "/img/favicon.ico"
+description: "Blog personale di Gabriele Baldassarre, un salernitano che scrive di tecnologia, data science, DevOps e altre cose molto nerd."
+baseurl: /bashebiscotti # the subpath of your site, e.g. "/blog"
+url: "https://theclue.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: "/assets/immagini/bash-biscotti-logo.svg" # path of site logo, e.g. "/assets/images/logo.png"
+date_format: "%-d %B %Y"
+read_time: true
+words_per_minute: 200
+mathjax: true
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+ggoogle-tracking-id: "UA-1228370-19" # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+disqus:
+  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+twitter:
+  username: bashebiscotti # site's Twitter username
 
-################
-# Header layout #
-################
+# Liquid
+liquid:
+  error_mode: strict
 
-black-favicon: "/img/logo-nav.png"
+# Build settings
+markdown: kramdown
+feed:
+  path: atom.xml
 
-background-img: "../img/intro-bg.png"
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
 
-##############################
-# Dynamic Text on the Header #
-##############################
+# Search
+search_full_content: false
 
-dynamic-typing: False
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "Mi piace l'odore delle GPU che friggono al mattino"
-  - text: "Se non puoi jailbreakarlo, non comprarlo"
-  - text: "Non c'è nessun problema che un cluster di sei Raspberry Pi non possa risolvere. Con calma."
-  - text: "Se hai i soldi, usa OSX. Se non li hai, fatti un hackintosh"
-  - text: "Ogni notte, R e biscotti!"
-  - text: "Quando tutto il resto fallisce, impila altri livelli alla rete"
+# Taxonomy pages
+category_archive_path: "/categorie/#"
+tag_archive_path: "/tags/#"
 
-me-img: "/img/terradimezzo.png"
-
-# To use facebook profile pic comment the previous line and uncomment the following
-# line, and replace 'user_id' with your facebook user id.
-# Facebook user id can be found by clicking on your profile pic and the large number
-# in the end of the url just before '&type' is your user id.
-# Note: fbid is not the same as user id and user id only contains numbers
-
-# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
-
-# To use github profile pic uncomment the following line and replace 'user_name'
-# with your github user name.
-
-# me-img: "https://github.com/theclue.png?size=500"
-
-# To use gravatar profile pic uncomment the following line and replace 'email_hash'
-# with your gravatar profile email hash.
-# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
-# just enter your email and it will generate the hash.
-
-# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
-
-##############################
-# Color the browser elements #
-##############################
-color-browser: "#000000"
-apple-status-bar-style: "black"
-
-################
-# Web app mode #
-################
-
-web-app-mode: True
-
-# Icons for Web App mode
-
-icon-36p: "/img/web-app/icon-36p.png"
-icon-48p: "/img/web-app/icon-48p.png"
-icon-72p: "/img/web-app/icon-72p.png"
-icon-96p: "/img/web-app/icon-96p.png"
-icon-144p: "/img/web-app/icon-144p.png"
-icon-192p: "/img/web-app/icon-192p.png"
-
-########
-# Blog #
-########
-
-enable-gesture-navigation: True
-
-post-preview-words: 96
-
-paginate: 5
-
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: False
-tumblr-share: True
-pinterest-share: True
-pocket-share: False
-vkontakte-share: False
-
-disqus-shortname:
-
-syntax-highlight: True
-
-################
-# Author Blurb #
-################
-
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb: "Gabriele Baldassarre è uno a cui piace sperimentare affinché le nuove tecnologie lo aiutino a risolvere i problemi. Ciò gli comporta grande soddisfazione. Nulla, tuttavia, in confronto a quando, nel farlo, ti accorgi di un nuovo problema che nemmeno credevi di avere!"
-author_blurb_image: "/img/author.png"
-
-##################
-# Social Buttons #
-##################
-
-social:
-  - title: "github"
-    url: "https://github.com/theclue"
-  - title: "linkedin"
-    url: "https://www.linkedin.com/in/gabrielebaldassarre"
-  - title: "twitter"
-    url: "https://twitter.com/bashebiscotti"
-  - title: "rss"
-    url: "/feed.xml"
-
-############
-# 404 page #
-############
-
-err-404-img: "/img/errore404.png"
-
-##################
-# GPG on Keybase #
-##################
-
-keybase-username: johnsmith
-keybase-in-social: False
-keybase-in-footer: False
-
-################################################################################
-
-# NB! Tread carefully if you want to change the variables below this point!
-
-# Sections shown in the index page
-
-pages_list:
-  A cosa serve questo spazio: 'about'
-  Social Network Analysis: 'sna'
-  Blog: 'latest-post'
-  Contattami: 'contact'
-
-# Exclusion list from the generated _site
-
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
-
-# Pagination path
-
-paginate_path: "blog/page:num/"
-
-# Enable minification SASS
-
-sass:
-  style: compressed
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
 plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-paginate
-  - jemoji
+
+# Front Matter Defaults
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: false
+      share: true
+
+# Site Author
+author:
+  name: Gabriele Baldassarre
+  picture: /assets/immagini/gabriele-baldassarre.png
+  email:
+  twitter: bashebiscotti
+  links:
+    - title: GitHub
+      url: https://github.com/theclue
+      icon: fab fa-github-square
+    - title: Twitter
+      url: https://twitter.com/bashebiscotti
+      icon: fab fa-twitter-square
+    - title: Linkedin
+      url: https://www.linkedin.com/in/gabrielebaldassarre/
+      icon: fab fa-linkedin
+
+# Footer Links
+footer_links:
+  - title: GitHub
+    url: https://github.com/theclue
+    icon: fab fa-github-square
+  - title: Twitter
+    url: https://twitter.com/bashebiscotti
+    icon: fab fa-twitter-square
+  - title: Linkedin
+    url: https://www.linkedin.com/in/gabrielebaldassarre/
+    icon: fab fa-linkedin
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
