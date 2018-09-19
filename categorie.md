@@ -1,7 +1,7 @@
 ---
 title: Articoli per Categoria
 layout: categories
-permalink: /categori/
+permalink: /categorie/
 show_excerpts: true
 entries_layout: list
 ---
