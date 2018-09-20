@@ -18,7 +18,7 @@ remote_theme: "mmistakes/so-simple-theme"
 locale: it-IT
 lang: it
 title: "{ Bash e biscotti }"
-description: "Blog personale di Gabriele Baldassarre, un salernitano che scrive di tecnologia, data science, DevOps e altre cose molto nerd."
+description: "Blog personale di Gabriele Baldassarre, un tizio che scrive di tecnologia, data science, DevOps e altre cose molto nerd."
 baseurl: /bashebiscotti # the subpath of your site, e.g. "/blog"
 url: "https://theclue.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/assets/immagini/bash-biscotti-logo.svg" # path of site logo, e.g. "/assets/images/logo.png"
