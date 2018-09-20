@@ -8,7 +8,6 @@ tags: [ 'kubernetes', 'docker', 'google cloud platform', 'data analysis', 'devop
 image:
   path: /assets/immagini/rstudio-kubernetes-header.jpg
   thumbnail: /assets/immagini/rstudio-kubernetes-thumb.jpg
-  caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
 ---
 
 [Kubernetes](https://kubernetes.io) è una piattaforma gratuita e _open source_ per la gestione, l'orchestrazione e la scalabilità dei processi eseguiti in container [Docker](https://www.docker.com/) su dei cluster, spesso, ma non necessariamente, ospitati in una cloud.
